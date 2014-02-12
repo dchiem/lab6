@@ -34,7 +34,7 @@ function addProjectDetails(e) {
 
 function addProject(result) {
 	console.log(result);
-	var idNumber = result.id;
+	var idNumber = result.id;p
 	var detailsSelector = "div#project" + idNumber + " div.details";
 
 	var htmlInsert = 
@@ -47,7 +47,7 @@ function addProject(result) {
 	//include image, small header with date, and summary
 	//Give the image the class detailsImage
 
-	$(detailsSelector).html(htmlInsert);
+	$(detailsSelector).html(htmlInsert); 
 }
 
 /*
